@@ -1,0 +1,7 @@
+# what is an advantage to using a text editor? 
+
+A text editor has the advantage of simplicity and speed because it is built for quick and efficient text manipulation without the overhead of challenging features found in word processors. Text editors are extremely flexible, allowing users to adjust the environment to their specific requirements, which is especially handy for programming jobs. They frequently offer syntax highlighting for multiple languages, making code more readable and less prone to errors. Furthermore, text editors do not include formatting information, ensuring that plain text files or code stay consistent and interoperable across systems.
+
+# Is there an advantage of using a relative vs an absolute URL?
+
+Yes, there are times when relative URLs are preferable to absolute URLs. Relative URLs are shorter and more concise, making them easier to maintain, particularly on large websites with a large number of internal connections. They make maintenance easier because you don't have to update the domain information if you modify the structure of your site or move it to a different domain. They are also more portable, as they may be utilized without change across different domains or settings, increasing the versatility of your web resources. However, it is crucial to note that relative URLs may not be appropriate when linking to external resources or when an unambiguous reference to a specific location is required, in which case absolute URLs are preferable.
