@@ -35,7 +35,7 @@ Be Consistent: Maintain consistency in naming across your project to make it eas
 
 
 Here is my live url as an example: 
-[https://corymckague.github.io/WebDesignHw/Assignment4/](https://corymckague.github.io/WebDesignHw/Assignment4/)
+[[https://corymckague.github.io/WebDesignHw/Assignment4/](https://github.com/bjbadelles/MART341-WebDesign/blob/main/assignment-4/index.html)]([https://corymckague.github.io/WebDesignHw/Assignment4](https://github.com/bjbadelles/MART341-WebDesign/blob/main/assignment-4/index.html)/)
 
 here is an example of the html in my text editor
 
