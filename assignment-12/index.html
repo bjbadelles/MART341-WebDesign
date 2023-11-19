@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header{
+    position: fixed;
+    background-color: greenyellow;
+    font-family: 'San Serif';
+    font-style: medium;
+    color: white;
+    font-variant: small-caps;
+    text-align: center;
+    margin: 5;
+    height: 3.5em;
+    width: 100%;
+        }
+
+        .menu-item{
+    display: inline-block;
+    margin: 5 5;
+    min-width: 10em;
+    text-align: center;
+    padding: 0.5em 0;
+        }
+
+        h1 {
+            border-bottom: 2px solid #333333;
+            padding-bottom: 5px;
+        }
+
+        .container {
+            margin: 30px auto;
+            border: 1px solid #ccc;
+            padding: 15px;
+            overflow: hidden;
+            overflow: auto;
+            width: 80%;  
+        }
+
+        .box {
+            float: left;
+            width: 30%;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #666;
+        }
+
+        .inline-box {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #666;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+    </style>
+</head>
+<header>    
+    
+    <div class="menu-item">
+    <a href="#">Home</a>
+ </div>
+ <div class="menu-item">
+    <a href="#">About</a>
+ </div>
+ <div class="menu-item">
+    <a href="#">Contact</a>
+</header>
+<body>
+    <h1></h1>
+
+    <div class="container">
+        <div class="box">Team 1</div>
+        <div class="box">Team 2</div>
+        <div class="box">Team 3</div>
+    </div>
+
+    <div class="container">
+        <div class="inline-box">Kobe, Shaq, Lebron </div>
+        <div class="inline-box">Mj, Hakeem, D rose</div>
+        <div class="inline-box">Curry, KD, Jokic</div>
+    </div>
+
+
+    <div class="container" style="position: relative;">
+        <p>Pick your team.</p>
+        <p style="position: absolute; top: 10px; right: 10px; background-color: #f1f1f1; padding: 5px;">
+            <div class="dropdown">
+                <button>Dropdown</button>
+                <div class="dropdown-content">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                </div>
+            </div></p>
+    </div>
+
+</body>
+</html>
